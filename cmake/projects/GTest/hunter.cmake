@@ -161,6 +161,15 @@ hunter_add_version(
     SHA1 3325aa4fc8b30e665c9f73a60f19387b7db36f85
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    GTest
+    VERSION
+    1.8.0-hunter-p5-ivs
+    URL https://github.com/ivsgroup/googletest/archive/ivs-1.8.5-hunter-p5.tar.gz
+    SHA1 ce12f38315d929704b054b0514ef6a63b28fedfd
+)
+
 if(HUNTER_GTest_VERSION VERSION_LESS 1.8.0)
   set(_gtest_license "LICENSE")
 else()
