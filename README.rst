@@ -1,3 +1,8 @@
+
+Do not use this repo alone, use the master repo
+https://github.com/ivsgroup/hunter_master
+
+
 Hunter
 ======
 
