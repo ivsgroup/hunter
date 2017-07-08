@@ -27,7 +27,20 @@ hunter_add_version(
 )
 
 # silence msvc level 4 warning inside exception/exception.hpp and optional/optional.hpp
-# see patch here : https://github.com/ivsgroup/boost_patch_warnings/blob/master/boost_1_62_0_patch_ivs.patch
+# see patch here : https://raw.githubusercontent.com/ivsgroup/boost_patch_warnings/ivs/boost_patch_ivs.patch
+hunter_add_version(
+    PACKAGE_NAME
+    Boost
+    VERSION
+    "1.64.0-patchivs"
+    URL
+    "https://github.com/ivsgroup/boost_patch_warnings/releases/download/1_64_0-patchivs/boost_1_64_0-patchivs.tar.bz2"
+    SHA1
+    bf4e443e2d0cc1e947e61748e5a23e8a1b04e46a
+)
+
+# silence msvc level 4 warning inside exception/exception.hpp and optional/optional.hpp
+# see patch here : https://raw.githubusercontent.com/ivsgroup/boost_patch_warnings/ivs/boost_patch_ivs.patch
 hunter_add_version(
     PACKAGE_NAME
     Boost
