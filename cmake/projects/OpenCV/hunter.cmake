@@ -76,7 +76,7 @@ hunter_add_version(
     URL
     "https://github.com/ivsgroup/opencv/archive/hunter-3.2.0-pivs.tar.gz"
     SHA1
-    7f0c9dddc53606ae8d2f53c4980325a1c93913a2
+    61278e67168b927f0b84dbdb461093c872bfee1b
 )
 
 hunter_add_version(
